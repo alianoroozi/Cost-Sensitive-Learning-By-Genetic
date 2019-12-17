@@ -1,6 +1,8 @@
 # Genetic algorithm based approach for cost sensitive learning
 
-In this notebook, I implement a **genetic algorithm based approach for cost sensitive learning**, in which the misclassification cost is considered together with the cost of feature extraction. I choose the decision tree classifier of Sklearn as the classification algorithm. You can choose any algorithm that you want.
+In this notebook, I implement a **genetic algorithm based approach for cost sensitive learning**, in which the misclassification cost is considered together with the cost of feature extraction. 
+
+The decision tree classifier of Sklearn is chosen as the classification algorithm. You can choose any algorithm that you want.
 
 A bit string representation is used to indicate what features are selected (e.g., the bit string 101001 may indicate that the 1st, 3rd, and 6th features are selected and the remaining ones are not).
 
